@@ -15,7 +15,8 @@ from one orientation to the other.
 
 ## The Schematic
 
-<img src="./docs/img/schematic.svg" align="right" alt="Electrical circuit schematic diagram">
+<img src="./docs/img/schematic.svg" align="right" alt="Electrical circuit schematic diagram"
+width="180">
 
 As shown in the schematic diagram, the PWR pin on the OpenEVSE board (J1, pin 4) is used as the 
 source of common ground for the LEDs.  Since the power light is always on, it is presumed that 
