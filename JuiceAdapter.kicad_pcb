@@ -396,8 +396,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at -1 -3.2 0)
+		(property "Value" "75Ω"
+			(at -1.09 -3.5 0)
 			(layer "F.Fab")
 			(uuid "4d93bd29-fbba-4dfb-9d6e-cfc213735840")
 			(effects
@@ -433,7 +433,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor - 75Ohm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -565,7 +565,7 @@
 			(uuid "221d794d-b384-4d26-aea3-925d85fe48cb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -1 -4.2 0)
+			(at -1 -4.74 0)
 			(layer "F.Fab")
 			(uuid "067a36d9-2ae4-4787-b62e-f28a1f893e66")
 			(effects
@@ -622,8 +622,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 0.4 -3.1 0)
+		(property "Value" "2.4KΩ"
+			(at 0.38 -3.5 0)
 			(layer "F.Fab")
 			(uuid "8d67978f-8c6a-4181-990b-b957e43d0698")
 			(effects
@@ -659,7 +659,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor - 2.4kOhm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -672,7 +672,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C304065"
+		(property "LCSC PN" "C22940  "
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -791,7 +791,7 @@
 			(uuid "324cc871-5e5f-4e45-9a9f-ee2439cd12e8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.4 -4.2 0)
+			(at 0.45 -4.63 0)
 			(layer "F.Fab")
 			(uuid "a6ad9b1b-ac8a-4d89-a078-80ed3431f2e5")
 			(effects
@@ -1416,7 +1416,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.4KΩ"
 			(at -5.4 0.7 180)
 			(layer "F.Fab")
 			(uuid "75f0970f-c759-4a3a-9721-6b26c0ebfd6a")
@@ -1453,7 +1453,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor - 2.4kOhm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1466,7 +1466,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C304065"
+		(property "LCSC PN" "C22940  "
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

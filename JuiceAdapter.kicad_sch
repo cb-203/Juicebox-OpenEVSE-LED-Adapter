@@ -974,6 +974,26 @@
 		)
 		(uuid "5e75cd65-8ce9-4329-92a0-84b67c2773a0")
 	)
+	(text "TO LED HARNESS"
+		(exclude_from_sim no)
+		(at 127 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "627f9b37-75cd-451c-92fe-52fa348a9110")
+	)
+	(text "FROM OpenEVSE BOARD"
+		(exclude_from_sim no)
+		(at 127.254 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b8522c6-6a06-44d9-bacf-d49723acf3a1")
+	)
 	(text "+5V"
 		(exclude_from_sim no)
 		(at 131.064 124.968 90)
@@ -1034,7 +1054,7 @@
 		(dnp no)
 		(uuid "0259b219-3f21-442e-916d-37479c2a0896")
 		(property "Reference" "Q1"
-			(at 115.316 75.692 0)
+			(at 119.38 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,6 +1069,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
@@ -1133,7 +1154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.4KΩ"
 			(at 128.27 104.1399 0)
 			(effects
 				(font
@@ -1203,7 +1224,7 @@
 		(dnp no)
 		(uuid "6503a8e4-f619-4558-94d5-0da35317cef9")
 		(property "Reference" "J2"
-			(at 127 45.72 90)
+			(at 126.746 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,6 +1237,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "JuiceAdapter-Library:STWXE FC38-04N0-AHS"
@@ -1294,7 +1316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2.4KΩ"
 			(at 139.7 104.1399 0)
 			(effects
 				(font
@@ -1378,6 +1400,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "JuiceAdapter-Library:STWXE FC38-04N0-AHS"
@@ -1448,7 +1471,7 @@
 		(dnp no)
 		(uuid "cd611801-3203-4633-a3ad-854600007848")
 		(property "Reference" "Q1"
-			(at 135.382 86.36 0)
+			(at 143.256 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1480,7 @@
 			)
 		)
 		(property "Value" "MMDT5401"
-			(at 136.398 89.408 0)
+			(at 136.652 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1547,7 +1570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "75Ω"
 			(at 128.27 73.6599 0)
 			(effects
 				(font
