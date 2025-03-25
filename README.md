@@ -1,17 +1,26 @@
 # Juicebox-OpenEVSE LED Adapter
 
-This printed circuit board design adapts the OpenEVSE v1 Juicebox replacement board's 
-LED connector to work with the LED harnesses in later model eMotorwerks Juicebox units.
+This printed circuit board design adapts the 
+[OpenEVSE v1 Juicebox replacement board](https://store.openevse.com/collections/all-products/products/replacement-electronics-for-juicebox-v1-metal-black-and-orange)'s 
+LED connector to work with the LED harnesses in later model eMotorWerks Juicebox units.
 
 <img src="./docs/img/rendering.png" align="right" alt="Rendering of the circuit board">
 
-Prior to the acquisition of eMotorwerks by EnelX, many (most?) Juicebox units were provided 
-with LED harnesses requiring +5V power to each LED with a common ground return path (-+++).
-However, early designs of the OpenEVSE replacement board were designed based on 
-earlier model Juiceboxes with LED harnesses requiring a single common +5V power input and 
-a ground trace to each LED (+---).  This project aims to bridge the gap between these earlier 
-model OpenEVSE boards and later model Juicebox LED harnesses by translating the voltages 
-from one orientation to the other.
+Prior to the redesign and release of the "v2" Juicebox model following the acquisition of 
+eMotorWerks by EnelX in late 2017, many (most?) "v1" Juicebox units were provided 
+with LED harnesses requiring +5V power to each LED with a common ground return path (-+++). 
+However, earlier models of the v1 design included harnesses having the opposite polarity (+---).
+
+The first implementations of the OpenEVSE replacement board were designed around the 
+earlier model Juiceboxes with the (+---) orientation and were quickly found to be incompatible 
+with the later model Juicebox LED harnesses.  Due to the way the LED harnesses were installed into 
+the cover of the Juicebox unit, reorienting or replacing the LEDs was considered impractical. 
+Although OpenEVSE have since developed a common ground variant of the replacement board, 
+this project aims to bridge the gap between the earlier model OpenEVSE boards and later model 
+Juicebox LED harnesses by translating the voltages from one orientation to the other using a small 
+adapter board.
+
+Files in this project are implemented in [KiCad](https://www.kicad.org) version 8.0.
 
 ## The Schematic
 
@@ -41,19 +50,17 @@ two lights.
 
 ## Current flow
 
-<img src="./docs/img/circuit-sim.png" align="right" alt="Electrical circuit simulation"
-width="180">
+<img src="./docs/img/circuit-sim.png" align="right" alt="Electrical circuit simulation" width="180">
 
 Simulating the circuit with proposed resistor values using the 
 [Falstad Circuit Simulator](https://www.falstad.com), 
 this diagram shows the approximate current at each section of the circuit.  At worst case, 
-the board is expected to pull no more than 45 to 50 mA.  
+the board is expected to pull no more than 45 to 50 mA. 
 
-The resistors shown adjacent to the LEDs are included in the existing LED harness.  
+The resistors shown adjacent to the LEDs are included in the existing LED harness. 
 In the simulation, the values for these resistors were set to approximate the current 
 measured at each LED.  As noted above, the red LED was found to pull about 22 mA without 
-additional resistance, while the green and blue LEDs each pull 
-about 13 mA.
+additional resistance, while the green and blue LEDs each pull about 13 mA.
 
 ## Prototype
 
