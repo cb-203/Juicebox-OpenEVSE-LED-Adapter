@@ -42,15 +42,17 @@ two lights.
 ## Current flow
 
 <img src="./docs/img/circuit-sim.png" align="right" alt="Electrical circuit simulation"
-width="291">
+width="180">
 
 Simulating the circuit with proposed resistor values using the 
 [Falstad Circuit Simulator](https://www.falstad.com), 
-this diagram shows the approximate current at each section of the circuit.  At worst case, the 
-board is expected to pull no more than 45 to 50 mA.  The resistors shown adjacent to the LEDs 
-are included in the existing LED harness.  In the simulation, the values for these resistors were 
-set to approximate the current measured at each LED.  As noted above, the red LED was 
-found to pull about 22 mA without additional resistance, while the green and blue LEDs each pull 
+this diagram shows the approximate current at each section of the circuit.  At worst case, 
+the board is expected to pull no more than 45 to 50 mA.  
+
+The resistors shown adjacent to the LEDs are included in the existing LED harness.  
+In the simulation, the values for these resistors were set to approximate the current 
+measured at each LED.  As noted above, the red LED was found to pull about 22 mA without 
+additional resistance, while the green and blue LEDs each pull 
 about 13 mA.
 
 ## Prototype
