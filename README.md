@@ -8,11 +8,11 @@ LED connector to work with the LED harnesses in later model eMotorWerks Juicebox
 
 Prior to the redesign and release of the "v2" Juicebox model following the acquisition of 
 eMotorWerks by EnelX in late 2017, many (most?) "v1" Juicebox units were provided 
-with LED harnesses requiring +5V power to each LED with a common ground return path (-+++). 
-However, earlier models of the v1 design included harnesses having the opposite polarity (+---).
+with LED harnesses requiring +5V power to each LED with a common ground return path (+++-). 
+However, earlier models of the v1 design included harnesses having the opposite polarity (---+).
 
 The first implementations of the OpenEVSE replacement board were designed around the 
-earlier model Juiceboxes with the (+---) orientation and were quickly found to be incompatible 
+earlier model Juiceboxes with the (---+) orientation and were quickly found to be incompatible 
 with the later model Juicebox LED harnesses.  Due to the way the LED harnesses were installed into 
 the cover of the Juicebox unit, reorienting or replacing the LEDs was considered impractical. 
 Although OpenEVSE have since developed a common ground variant of the replacement board, 
@@ -64,8 +64,8 @@ additional resistance, while the green and blue LEDs each pull about 13 mA.
 
 ## Prototype
 
-Proof-of-concept prototype boards fabricated in March 2025 using JLCPCB.com board manufacture with 
-component assembly.
+Proof-of-concept prototype boards fabricated in March 2025 using [JLCPCB.com](https://jlcpcb.com) 
+board manufacture with component assembly:
 
 <img src="./docs/img/adapters.jpg" alt="Collection of three adapters on a piece of yellow tape">
 
