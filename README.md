@@ -26,7 +26,7 @@ this pin will never be switched off while the other LEDs are in use.  Therefore,
 
 The other two LEDs are switched on ground.  When the LEDs are off, the WIFI and/or CHG pins on 
 the OpenEVSE board are floating.  When on, these pins are connected to ground.  To convert this 
-behvior into +5V power for each LED, a pair of PNP transistors is used.  +5V is routed to the 
+behavior into +5V power for each LED, a pair of PNP transistors is used.  +5V is routed to the 
 emitter of each transistor, and the collector is connected to each corresponding LED.  When 
 negative voltage is applied to the base of each transistor via the WIFI and CHG pins on the 
 controller board, the transistor is opened allowing +5V current to flow through to the LED, 
@@ -38,3 +38,28 @@ current draw.  Through experimentation, without the added resistance, this LED w
 about 22 mA of current, while the green and blue LEDs pull closer to 13 mA.  Even with the added 
 resistance, the red LED subjectively appears to provide very similar brightness to the other 
 two lights.
+
+## Current flow
+
+<img src="./docs/img/circuit-sim" align="right" alt="Electrical circuit simulation"
+width="291">
+
+Simulating the circuit with proposed resistor values using the 
+[Falstad Circuit Simulator](https://www.falstad.com), 
+this diagram shows the approximate current at each section of the circuit.  At worst case, the 
+board is expected to pull no more than 45 to 50 mA.  The resistors shown adjacent to the LEDs 
+are included in the existing LED harness.  In the simulation, the values for these resistors were 
+set to approximate the current measured at each LED.  As noted above, the red LED was 
+found to pull about 22 mA without additional resistance, while the green and blue LEDs each pull 
+about 13 mA.
+
+## Prototype
+
+Proof-of-concept prototype boards fabricated in March 2025 using JLCPCB.com board manufacture with 
+component assembly.
+
+<img src="./docs/img/adapters.jpg" alt="Collection of three adapters on a piece of yellow tape">
+
+<img src="./docs/img/adapter.jpg" alt="Closeup of a single adapter board with FFC cable">
+
+<img src="./docs/img/installation.jpg" alt = "View of the board installed into the Juicebox">
