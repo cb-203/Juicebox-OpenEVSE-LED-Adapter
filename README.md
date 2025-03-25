@@ -41,7 +41,7 @@ two lights.
 
 ## Current flow
 
-<img src="./docs/img/circuit-sim" align="right" alt="Electrical circuit simulation"
+<img src="./docs/img/circuit-sim.png" align="right" alt="Electrical circuit simulation"
 width="291">
 
 Simulating the circuit with proposed resistor values using the 
