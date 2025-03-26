@@ -22,7 +22,7 @@ adapter board.
 
 Files in this project are implemented in [KiCad](https://www.kicad.org) version 8.0.
 
-<img src="./docs/img/pixel.png">
+$${\color{white}.}$$
 
 ## The Schematic
 
@@ -50,7 +50,7 @@ about 22 mA of current, while the green and blue LEDs pull closer to 13 mA.  Eve
 resistance, the red LED subjectively appears to provide very similar brightness to the other 
 two lights.
 
-<img src="./docs/img/pixel.png">
+$${\color{white}.}$$
 
 ## Current flow
 
@@ -66,7 +66,19 @@ In the simulation, the values for these resistors were set to approximate the cu
 measured at each LED.  As noted above, the red LED was found to pull about 22 mA without 
 additional resistance, while the green and blue LEDs each pull about 13 mA.
 
-<img src="./docs/img/pixel.png">
+$${\color{white}.}$$
+
+$${\color{white}.}$$
+
+$${\color{white}.}$$
+
+$${\color{white}.}$$
+
+$${\color{white}.}$$
+
+$${\color{white}.}$$
+
+$${\color{white}.}$$
 
 ## Prototype
 
