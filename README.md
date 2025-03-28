@@ -1,23 +1,23 @@
-# Juicebox-OpenEVSE LED Adapter
+# JuiceBox-OpenEVSE LED Adapter
 
 This printed circuit board design adapts the 
-[OpenEVSE v1 Juicebox replacement board](https://store.openevse.com/collections/all-products/products/replacement-electronics-for-juicebox-v1-metal-black-and-orange)'s 
-LED connector to work with the LED harnesses in later model eMotorWerks Juicebox units.
+[OpenEVSE v1 JuiceBox replacement board](https://store.openevse.com/collections/all-products/products/replacement-electronics-for-juicebox-v1-metal-black-and-orange)'s 
+LED connector to work with the LED harnesses in later model eMotorWerks JuiceBox units.
 
 <img src="./docs/img/rendering.png" align="right" alt="Rendering of the circuit board">
 
-Prior to the redesign and release of the "v2" Juicebox model following the acquisition of 
-eMotorWerks by EnelX in late 2017, many (most?) "v1" Juicebox units were provided 
-with LED harnesses requiring +5V power to each LED with a common ground return path (+++-). 
-However, earlier models of the v1 design included harnesses having the opposite polarity (---+).
+Prior to the redesign and release of the "v2" JuiceBox model following the acquisition of 
+eMotorWerks by EnelX in late 2017, many (most?) "v1" JuiceBox units were provided 
+with LED harnesses requiring +5V power to each LED with a common ground return path (+ + + -). 
+However, earlier models of the v1 design included harnesses having the opposite polarity (- - - +).
 
 The first implementations of the OpenEVSE replacement board were designed around the 
-earlier model Juiceboxes with the (---+) orientation and were quickly found to be incompatible 
-with the later model Juicebox LED harnesses.  Due to the way the LED harnesses were installed into 
-the cover of the Juicebox unit, reorienting or replacing the LEDs was considered impractical. 
+earlier model JuiceBoxes with the (- - - +) orientation and were quickly found to be incompatible 
+with the later model JuiceBox LED harnesses.  Due to the way the LED harnesses were installed into 
+the cover of the JuiceBox unit, reorienting or replacing the LEDs was considered impractical. 
 Although OpenEVSE have since developed a common ground variant of the replacement board, 
 this project aims to bridge the gap between the earlier model OpenEVSE boards and later model 
-Juicebox LED harnesses by translating the voltages from one orientation to the other using a small 
+JuiceBox LED harnesses by translating the voltages from one orientation to the other using a small 
 adapter board.
 
 Files in this project are implemented in [KiCad](https://www.kicad.org) version 8.0.
@@ -89,4 +89,4 @@ board manufacture with component assembly:
 
 <img src="./docs/img/adapter.jpg" alt="Closeup of a single adapter board with FFC cable">
 
-<img src="./docs/img/installation.jpg" alt = "View of the board installed into the Juicebox">
+<img src="./docs/img/installation.jpg" alt = "View of the board installed into the JuiceBox">
