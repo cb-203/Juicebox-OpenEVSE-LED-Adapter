@@ -89,4 +89,14 @@ board manufacture with component assembly:
 
 <img src="./docs/img/adapter.jpg" alt="Closeup of a single adapter board with FFC cable">
 
+Adapter installed into a JuiceBox Pro 32 with OpenEVSE v1 replacement board.  The adapter is 
+affixed to the side wall of the JuiceBox enclosure with foam mounting tape.
+
 <img src="./docs/img/installation.jpg" alt = "View of the board installed into the JuiceBox">
+
+All lights are on for a few seconds when the device is first powered on.  When ready, only the 
+green LED is illuminated.  While charging, the red LED is also lit.  The blue LED is used to 
+indicate an error state (not pictured) but will also momentarily light up when the unit is 
+powered off (also not pictured).
+
+<img src="./docs/img/juiceboxes.jpg" alt = "Three photos of a JuiceBox showing working LEDs">
