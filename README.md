@@ -24,6 +24,18 @@ Files in this project are implemented in [KiCad](https://www.kicad.org) version 
 
 $${\color{white}.}$$
 
+## Board Layout and Components
+
+<img src="./docs/img/board.png" alt="Front view of the circuit board">
+
+* J1, J2: 4-pin FFC connector, vertical, 1.0 mm pitch
+* R1, R2: 2.4 kOhm resistor, 0603 package
+* R3: 75 Ohm resistor, 0603 package
+* Q1: Dual PNP/PNP transistors, SOT-363 package
+* F1: Flat Flexible Cable (FFC), 4-pin, 1.0 mm pitch, 10 cm length, same-side, insert into J1
+
+$${\color{white}.}$$
+
 ## The Schematic
 
 <img src="./docs/img/schematic.svg" align="right" alt="Electrical circuit schematic diagram"
